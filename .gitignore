@@ -6,3 +6,5 @@ Cheffile.lock
 .bundle
 .librarian
 Gemfile.lock
+
+config/groups/work*.yml

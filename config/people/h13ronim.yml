@@ -1,13 +1,54 @@
 groups:
-    - groupa
+  - work
 recipes:
-    mac_os_x:
-        - osxdefaults::set_computer_name
+  mac_os_x:
+    - osxdefaults::disable_auto-correct
+    - osxdefaults::disable_natural_scrolling
+    - osxdefaults::dock_automatically_hide_and_show_the_dock
+    - osxdefaults::set_computer_name
 attributes:
-    osxdefaults:
-        computername: MyComputerName
-    homebrewalt:
-        apps:
-            - git-extras
-        cask_apps:
-            - sourcetree
+  homebrewalt:
+    apps:
+      - ack
+      - ag
+      - axel
+      - ffmpeg
+      - macvim
+      - rbenv
+      - rbenv-aliases
+      - ruby-build
+      - youtube-dl
+      - wget
+      - zsh
+    cask_apps:
+      - alfred
+      - bartender
+      - bittorrent-sync
+      - choosy
+      - cleanmymac
+      - dash
+      - deluge
+      - firefox
+      - fluid
+      - google-chrome
+      - google-chrome-canary
+      - hazel
+      - iterm2
+      - istat-menus
+      - keyboard-maestro
+      - libreoffice
+      - mplayerx
+      - nvalt
+      - onepassword
+      - silverlight
+      - sitesucker
+      - skype
+      - spotify
+      - time-tracker
+      - totalterminal
+      - vlc
+      - vmware-fusion
+      - vox
+      - vox-preference-pane
+  osxdefaults:
+    computername: Wassail
