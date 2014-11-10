@@ -40,6 +40,7 @@ attributes:
       - mplayerx
       - nvalt
       - onepassword
+      - pastebotsync-pane
       - silverlight
       - sitesucker
       - skype
@@ -49,6 +50,6 @@ attributes:
       - vlc
       - vmware-fusion
       - vox
-      - vox-preference-pane
+      - vox-preferences-pane
   osxdefaults:
     computername: Wassail
