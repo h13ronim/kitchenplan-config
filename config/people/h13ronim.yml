@@ -16,6 +16,7 @@ attributes:
       - macvim
       - rbenv
       - rbenv-aliases
+      - rhash
       - ruby-build
       - youtube-dl
       - wget
