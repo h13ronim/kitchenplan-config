@@ -12,6 +12,7 @@ attributes:
       - ack
       - ag
       - axel
+      - blueutil
       - ffmpeg
       - macvim
       - rbenv
@@ -25,17 +26,20 @@ attributes:
       - alfred
       - bartender
       - bittorrent-sync
+      - charles-openjdk
       - choosy
       - cleanmymac
+      - colorpicker-skalacolor
       - dash
       - deluge
       - firefox
+      - firefoxdeveloperedition
       - fluid
       - google-chrome
       - google-chrome-canary
       - hazel
+      - instacast
       - iterm2
-      - istat-menus
       - keyboard-maestro
       - libreoffice
       - mplayerx
