@@ -1,60 +1,23 @@
 groups:
+  - desktop
   - work
 recipes:
   mac_os_x:
     - osxdefaults::disable_auto-correct
     - osxdefaults::disable_natural_scrolling
     - osxdefaults::dock_automatically_hide_and_show_the_dock
-    - osxdefaults::set_computer_name
 attributes:
   homebrewalt:
     apps:
       - ack
       - ag
       - axel
-      - blueutil
-      - ffmpeg
       - macvim
       - rbenv
       - rbenv-aliases
       - rhash
       - ruby-build
-      - youtube-dl
       - wget
       - zsh
     cask_apps:
-      - alfred
-      - bartender
-      - bittorrent-sync
-      - charles-openjdk
-      - choosy
-      - cleanmymac
-      - colorpicker-skalacolor
-      - dash
-      - deluge
-      - firefox
-      - firefoxdeveloperedition
-      - fluid
-      - google-chrome
-      - google-chrome-canary
-      - hazel
-      - instacast
       - iterm2
-      - keyboard-maestro
-      - libreoffice
-      - mplayerx
-      - nvalt
-      - onepassword
-      - pastebotsync-pane
-      - silverlight
-      - sitesucker
-      - skype
-      - spotify
-      - time-tracker
-      - totalterminal
-      - vlc
-      - vmware-fusion
-      - vox
-      - vox-preferences-pane
-  osxdefaults:
-    computername: Wassail

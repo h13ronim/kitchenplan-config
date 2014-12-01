@@ -1,0 +1,44 @@
+recipes:
+  mac_os_x:
+    - osxdefaults::set_computer_name
+attributes:
+  homebrewalt:
+    apps:
+      - blueutil
+      - ffmpeg
+      - youtube-dl
+    cask_apps:
+      - alfred
+      - bartender
+      - bittorrent-sync
+      - charles-openjdk
+      - choosy
+      - cleanmymac
+      - colorpicker-skalacolor
+      - dash
+      - deluge
+      - firefox
+      - firefoxdeveloperedition
+      - fluid
+      - google-chrome
+      - google-chrome-canary
+      - hazel
+      - instacast
+      - keyboard-maestro
+      - libreoffice
+      - mplayerx
+      - nvalt
+      - onepassword
+      - pastebotsync-pane
+      - silverlight
+      - sitesucker
+      - skype
+      - spotify
+      - time-tracker
+      - totalterminal
+      - vlc
+      - vmware-fusion
+      - vox
+      - vox-preferences-pane
+  osxdefaults:
+    computername: Wassail
