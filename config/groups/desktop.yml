@@ -9,6 +9,7 @@ attributes:
       - youtube-dl
     cask_apps:
       - alfred
+      - air-video-server-hd
       - bartender
       - bittorrent-sync
       - charles-openjdk
