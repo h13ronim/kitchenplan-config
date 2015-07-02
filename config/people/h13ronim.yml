@@ -12,6 +12,7 @@ attributes:
       - ack
       - ag
       - axel
+      - git
       - macvim
       - rbenv
       - rbenv-aliases
