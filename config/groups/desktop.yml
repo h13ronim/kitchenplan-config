@@ -19,6 +19,7 @@ attributes:
       - alfred
       - airfoil
       - air-video-server-hd
+      - arq
       - bartender
       - bittorrent-sync
       - caffeine
