@@ -4,60 +4,22 @@ recipes:
 attributes:
   homebrewalt:
     apps:
-      - android-platform-tools
-      - apg
-      - blueutil
-      - ffmpeg
-      - git-hooks
-      - go
       - heroku-toolbelt
       - terminal-notifier
-      - subliminal
       - unrar
       - youtube-dl
     cask_apps:
       - alfred
       - airfoil
-      - air-video-server-hd
       - arq
-      - bartender
-      - bittorrent-sync
-      - caffeine
-      - charles-openjdk
-      - choosy
-      - cleanmymac
-      - colorpicker-skalacolor
-      - dash
       - dropbox
       - firefox
-      - firefoxdeveloperedition
-      - fluid
       - google-chrome
       - google-chrome-canary
-      - hazel
-      - imageoptim
-      - instacast
-      - java
-      - keyboard-maestro
-      - libreoffice
-      - licecap
       - mplayerx
       - nvalt
       - onepassword
-      - pastebotsync-pane
-      - sequel-pro
-      - silverlight
-      - sitesucker
-      - skype
-      - sourcetree
       - spotify
-      - time-tracker
-      - toggldesktop
-      - totalterminal
-      - torbrowser
       - vlc
-      - vmware-fusion
-      - vox
-      - vox-preferences-pane
   osxdefaults:
     computername: Wassail

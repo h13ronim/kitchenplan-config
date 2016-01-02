@@ -10,11 +10,9 @@ recipes:
 attributes:
   homebrewalt:
     apps:
-      - ack
       - ag
       - axel
       - git
-      - macvim
       - rbenv
       - rbenv-aliases
       - rhash
