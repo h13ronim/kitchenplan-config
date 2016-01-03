@@ -1,6 +1,7 @@
 recipes:
   mac_os_x:
     - osxdefaults::set_computer_name
+    - apm::default
 attributes:
   homebrewalt:
     apps:
@@ -13,6 +14,7 @@ attributes:
       - alfred
       - airfoil
       - arq
+      - atom
       - dropbox
       - firefox
       - google-chrome
@@ -23,3 +25,27 @@ attributes:
       - vlc
   osxdefaults:
     computername: Wassail
+  apm:
+    packages:
+      - atom-beautify
+      - atom-fuzzy-grep
+      - file-icons
+      - fonts
+      - git-plus
+      - language-haml
+      - language-lua
+      - linter
+      - linter-csslint
+      - linter-haml
+      - linter-jsonlint
+      - linter-lua
+      - linter-php
+      - linter-ruby
+      - linter-scss-lint
+      - pigments
+      - project-manager
+      - rails-open-rspec
+      - react
+      - sort-lines
+      - tabularize
+      - toggle-quotes
