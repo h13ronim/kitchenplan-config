@@ -9,6 +9,7 @@ attributes:
       - unrar
       - youtube-dl
     cask_apps:
+      - 1password
       - alfred
       - airfoil
       - arq
@@ -18,7 +19,6 @@ attributes:
       - google-chrome-canary
       - mplayerx
       - nvalt
-      - onepassword
       - spotify
       - vlc
   osxdefaults:
