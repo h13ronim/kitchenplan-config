@@ -1,30 +1,77 @@
 recipes:
   mac_os_x:
+    # - apm::default
+    - homebrew::install_formulas
+    - homebrew::install_casks
+    - homebrew::install_taps
+    - dotfiles::atom
+    - dotfiles::hammerspoon
+    - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
     - osxdefaults::set_computer_name
-    - apm::default
+    - osxdefaults::menu_hide
+    - osxdefaults::reduce_transparency
 attributes:
-  homebrewalt:
-    apps:
+  homebrew:
+    formulas:
+      - dockutil
+      - ffmpeg
+      - gdm
+      - go
       - heroku-toolbelt
+      - imapfilter
+      - influxdb
+      - letsencrypt
+      - lua
+      - node
+      - pstree
+      - python
+      - qemu
+      - rsync
+      - telegraf
       - terminal-notifier
       - unrar
       - youtube-dl
-    cask_apps:
+    casks:
       - 1password
       - alfred
       - airfoil
       - arq
       - atom
+      - audacity
+      - battle-net
+      - busycal
+      - cleanmymac
+      - dash
       - dropbox
       - firefox
+      - font-hack
+      - font-inconsolata
+      - fluid
+      - flux
+      - grammarly
+      - goofy
       - google-chrome
       - google-chrome-canary
+      - hammerspoon
+      - imageoptim
+      - karabiner
       - mplayerx
       - nvalt
-      - spotify
+      - packer
+      - postico
+      - qlcolorcode
+      - qlmarkdown
+      - qlstephen
+      - track-o-bot
+      - transmission
+      - silverlight
+      - slack
+      - spotify091527
+      - vagrant
       - vlc
-  osxdefaults:
-    computername: Wassail
+    taps:
+      - caskroom/fonts
+      - h13ronim/otg
   apm:
     packages:
       - atom-beautify
@@ -49,3 +96,5 @@ attributes:
       - sort-lines
       - tabularize
       - toggle-quotes
+  osxdefaults:
+    computername: Wassail

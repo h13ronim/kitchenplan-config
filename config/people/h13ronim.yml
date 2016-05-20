@@ -3,13 +3,17 @@ groups:
   - work
 recipes:
   mac_os_x:
+    - homebrew::install_formulas
+    - homebrew::install_casks
     - osxdefaults::disable_auto-correct
     - osxdefaults::disable_natural_scrolling
     - osxdefaults::dock_automatically_hide_and_show_the_dock
     - dotfiles::oh-my-zsh
 attributes:
-  homebrewalt:
-    apps:
+  user:
+    id: h13ronim
+  homebrew:
+    formulas:
       - ag
       - axel
       - git
@@ -18,5 +22,5 @@ attributes:
       - rhash
       - ruby-build
       - wget
-    cask_apps:
+    casks:
       - iterm2

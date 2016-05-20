@@ -1,11 +1,9 @@
-site "http://community.opscode.com/api/v1"
+site 'https://community.opscode.com/api/v1'
 
-cookbook "homebrewalt",           :github => "h13ronim/chef-homebrewalt"
-cookbook "nodejs",                :github => "kitchenplan/chef-nodejs",         :ref => "v1.2"
-cookbook "applications",          :github => "kitchenplan/chef-applications",   :ref => "v2.0.6"
-cookbook "osxdefaults",           :github => "kitchenplan/chef-osxdefaults",    :ref => "v1.0.4"
-cookbook "dotfiles",              :github => "h13ronim/chef-dotfiles"
-cookbook "drivers",               :github => "kitchenplan/chef-drivers",        :ref => "v1.0"
-cookbook "sudoalt",               :github => "kitchenplan/chef-sudoalt",        :ref => "v2.4"
-cookbook "dmg",                   :github => "opscode-cookbooks/dmg",           :ref => "v2.1.4"
-cookbook "apm", "0.1.0",          :github => "dsbaars/chef-apm"
+cookbook 'homebrew', '~> 2.0.5'
+cookbook 'osxdefaults',  github: 'h13ronim/chef-osxdefaults'
+cookbook 'dotfiles',     path: '/Users/h13ronim/projects/chef-dotfiles'
+cookbook 'drivers',      github: 'kitchenplan/chef-drivers',      ref: 'v1.0'
+cookbook 'sudoalt',      github: 'kitchenplan/chef-sudoalt',      ref: 'v2.4'
+cookbook 'dmg',          github: 'opscode-cookbooks/dmg',         ref: 'v2.1.4'
+cookbook 'apm',          github: 'dsbaars/chef-apm',              ref: '6d2da7dd68f8216881fc19f62a26bd48157e05fd'
