@@ -2,7 +2,7 @@ site 'https://community.opscode.com/api/v1'
 
 cookbook 'homebrew', '~> 2.0.5'
 cookbook 'osxdefaults',  github: 'h13ronim/chef-osxdefaults'
-cookbook 'dotfiles',     path: '/Users/h13ronim/projects/chef-dotfiles'
+cookbook 'dotfiles',     github: 'h13ronim/chef-dotfiles'
 cookbook 'drivers',      github: 'kitchenplan/chef-drivers',      ref: 'v1.0'
 cookbook 'sudoalt',      github: 'kitchenplan/chef-sudoalt',      ref: 'v2.4'
 cookbook 'dmg',          github: 'opscode-cookbooks/dmg',         ref: 'v2.1.4'
