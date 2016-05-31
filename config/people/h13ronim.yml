@@ -6,6 +6,7 @@ recipes:
     - homebrew::install_formulas
     - homebrew::install_casks
     - osxdefaults::disable_auto-correct
+    - osxdefaults::disable_ipods_automatically_sync
     - osxdefaults::disable_natural_scrolling
     - osxdefaults::dock_automatically_hide_and_show_the_dock
     - dotfiles::oh-my-zsh
