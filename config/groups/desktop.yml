@@ -27,6 +27,7 @@ attributes:
       - python
       - qemu
       - rsync
+      - ssh-copy-id
       - telegraf
       - terminal-notifier
       - unrar
